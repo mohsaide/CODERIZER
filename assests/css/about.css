@@ -1,0 +1,188 @@
+
+body
+{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.about
+{
+    width: 100%;
+   height: 70vh; 
+   box-sizing: border-box;
+   background-color: #fff;
+   overflow: hidden;
+}
+
+.about-image
+{
+width: 33.3%;
+height: 100%;
+display: inline;
+float: left;
+
+
+}
+
+.about-image-container
+{
+    width: 90%;
+    height:60%;
+    background-image: url(../img//about1.png) ;
+    background-size: cover;
+    float: right;
+    margin-top: 10%;
+
+}
+
+.about-info
+{
+    width: 30%;
+    height: 100%;
+    display: inline;
+    box-sizing: border-box;
+    padding-left: 20px;
+    float: left;
+    position: relative;
+}
+
+.about-signup
+{
+    width: 30%;
+    height: 100%;
+    display: inline;
+    float: left;
+}
+
+.about-info h1:nth-child(1)
+{
+font-family: 'Courier New', Courier, monospace;
+margin-top: 10vh;
+font-size: xx-large;
+line-height: 1px;
+}
+.about-info h1:nth-child(3)
+{
+    margin-top: 0;
+     line-height: 1px;
+     color: #FC9928;
+     font-size: 50px;
+     position: absolute;
+     top: 11vh;
+}
+.about-info span
+{
+    color:#FC9928 ; 
+    font-size: xx-large;
+}
+
+.about-info p{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.about-info h1:nth-child(3)::after
+{
+    content: "-";
+    position: absolute;
+    top:2.5vh ; 
+    left:10px ;
+    font-size: 70px;
+       
+}
+
+.about-info a 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    display: block;
+    width: 40%;
+    height: 7vh;
+    background-color: #FC9928;
+    margin-left: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 2vh;
+    color: #fff;
+    font-size:20px;
+    border-radius: 5pt;
+}
+
+.about-info a:hover
+{
+    background-color: #af6e23;
+}
+
+.about-signup-container
+{
+    width: 70%;
+    height: 80%;
+    background-color: azure;
+margin-right: auto;
+margin-top: 10%;
+background-image: url(/assests/img/signup.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.about-signup-container-filter
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 15px transparent solid;
+}
+
+.about-signup-container-filter-data
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 40%;
+    overflow: hidden;
+}
+
+.about-signup-container-filter-data h2
+{
+text-align: center;
+margin-top: 10%;
+color: #FFFFFF;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.about-signup-container-filter-data span
+{
+font-size: 50px;
+text-align: center;
+display: block;
+color: #FC9928;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
+
+}
+
+
+.about-signup-container-filter-data a 
+{
+
+text-align: center;
+display: block;
+color:#FFFFFF ;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-signup-container-filter:hover
+{
+
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow: hidden;
+    border: 15px rgba(255, 255, 255, 0.19) solid;
+}
+
+
+
